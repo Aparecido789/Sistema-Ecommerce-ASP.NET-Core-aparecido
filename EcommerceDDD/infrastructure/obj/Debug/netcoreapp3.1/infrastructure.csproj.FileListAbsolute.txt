@@ -1,0 +1,8 @@
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.deps.json
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.pdb
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.AssemblyInfoInputs.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.AssemblyInfo.cs
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.pdb
