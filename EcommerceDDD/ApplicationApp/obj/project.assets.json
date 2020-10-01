@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Domain >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Chico s\\.nuget\\packages\\": {}
@@ -32,7 +70,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Chico s\\Desktop\\GITHUB\\Sistema-Ecommerce-ASP.NET-Core-aparecido\\EcommerceDDD\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Chico s\\Desktop\\GITHUB\\Sistema-Ecommerce-ASP.NET-Core-aparecido\\EcommerceDDD\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\Chico s\\Desktop\\GITHUB\\Sistema-Ecommerce-ASP.NET-Core-aparecido\\EcommerceDDD\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Chico s\\Desktop\\GITHUB\\Sistema-Ecommerce-ASP.NET-Core-aparecido\\EcommerceDDD\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
