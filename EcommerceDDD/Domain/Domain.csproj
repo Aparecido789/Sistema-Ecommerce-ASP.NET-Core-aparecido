@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Generics\" />
+    <Folder Include="Interfaces\InterfaceProduct\" />
+    <Folder Include="Interfaces\InterfaceServices\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>

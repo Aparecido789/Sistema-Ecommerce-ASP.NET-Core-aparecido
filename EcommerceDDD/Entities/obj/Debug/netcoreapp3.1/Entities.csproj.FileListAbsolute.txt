@@ -6,3 +6,4 @@ C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\Ecommer
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
