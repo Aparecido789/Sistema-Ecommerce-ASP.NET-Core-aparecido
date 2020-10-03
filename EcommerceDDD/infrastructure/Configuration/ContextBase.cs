@@ -1,4 +1,5 @@
 ﻿using Entities.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace infrastructure.Configuration
 {
-    public class ContextBase : IdentityDbContext<ApplicationUser>
+    public class ContextBase : IdentityDbContext<IdentityUser>
     {
         public ContextBase(DbContextOptions<ContextBase> options):base(options)
         {
@@ -15,6 +16,7 @@ namespace infrastructure.Configuration
         }
         public DbSet<Produto> Produto { get; set; }
         public DbSet<CompraUsuario> CompraUsuarios { get; set; }
+        public DbSet<IdentityUser> IdentityUsers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,9 +28,15 @@ namespace infrastructure.Configuration
             }
         }
 
-        private string GetStringConnetionConfig()
+        protected override void OnModelCreating(ModelBuilder builder)
         {
-            string strCon = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            builder.Entity<IdentityUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
+            base.OnModelCreating(builder);
+        }
+
+        private string GetStringConnetionConfig()
+        {           
+            string strCon = "Data Source=DESKTOP-9LK3UQP;Initial Catalog=ECOMMERCE_DDD;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             return strCon;
         }
     }

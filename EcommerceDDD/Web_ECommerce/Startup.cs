@@ -13,6 +13,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using infrastructure.Configuration;
+using Domain.Interfaces.Generics;
+using infrastructure.Repository.Generics;
+using Domain.Interfaces.InterfaceProduct;
+using infrastructure.Repository.Repositories;
+using ApplicationApp.Interfaces;
+using ApplicationApp.OpenApp;
+using Domain.Interfaces.InterfaceServices;
+using Domain.Services;
 
 namespace Web_ECommerce
 {
@@ -35,6 +43,16 @@ namespace Web_ECommerce
                 .AddEntityFrameworkStores<ContextBase>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            //Interface e Repositorio
+            services.AddSingleton(typeof(IGenerics<>), typeof(RepositoryGenerics<>));
+            services.AddSingleton<IProduct, RepositoryProduct>();
+
+            //Interface Aplicação
+            services.AddSingleton<InterfaceProductApp, AppProduct>();
+
+            //Interface Dominio
+            services.AddSingleton<IServiceProduct, ServiceProduct>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
