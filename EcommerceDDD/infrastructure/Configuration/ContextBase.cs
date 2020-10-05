@@ -36,7 +36,7 @@ namespace infrastructure.Configuration
 
         private string GetStringConnetionConfig()
         {           
-            string strCon = "Data Source=DESKTOP-9LK3UQP;Initial Catalog=ECOMMERCE_DDD;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string strCon = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EcommerceDDD;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             return strCon;
         }
     }
