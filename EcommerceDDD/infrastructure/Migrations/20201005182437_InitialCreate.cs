@@ -172,7 +172,7 @@ namespace infrastructure.Migrations
                     PRD_DESCRICAO = table.Column<string>(maxLength: 150, nullable: true),
                     PRD_OBSERVACAO = table.Column<string>(maxLength: 20000, nullable: true),
                     PRD_VALOR = table.Column<decimal>(nullable: false),
-                    PRD_QTD_ESTOQUE = table.Column<decimal>(nullable: false),
+                    PRD_QTD_ESTOQUE = table.Column<int>(nullable: false),
                     UserId = table.Column<string>(nullable: true),
                     PRD_ESTADO = table.Column<bool>(nullable: false),
                     PRD_DATA_CADASTRO = table.Column<DateTime>(nullable: false),

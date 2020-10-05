@@ -200,9 +200,9 @@ namespace infrastructure.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasMaxLength(20000);
 
-                    b.Property<decimal>("QtdEstoque")
+                    b.Property<int>("QtdEstoque")
                         .HasColumnName("PRD_QTD_ESTOQUE")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");

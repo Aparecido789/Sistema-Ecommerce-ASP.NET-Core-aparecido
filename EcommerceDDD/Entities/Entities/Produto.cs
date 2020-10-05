@@ -35,7 +35,7 @@ namespace Entities.Entities
 
         [Column("PRD_QTD_ESTOQUE")]
         [Display(Name = "Quantidade de Estoque")]
-        public decimal QtdEstoque { get; set; }
+        public int QtdEstoque { get; set; }
 
         [Display(Name = "Usuário")]
         [ForeignKey("ApplicationUser")]
