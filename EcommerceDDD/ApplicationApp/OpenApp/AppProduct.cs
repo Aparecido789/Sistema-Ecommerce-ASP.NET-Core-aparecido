@@ -28,6 +28,10 @@ namespace ApplicationApp.OpenApp
         {
             await _IServiceProduct.UpdateProduct(produto);
         }
+        public async Task<List<Produto>> ListaProdutoUsuario(string userId)
+        {
+            return await _IProduct.ListaProdutoUsuario(userId);
+        }
         #endregion
 
         #region Métodos
@@ -54,7 +58,9 @@ namespace ApplicationApp.OpenApp
         public async Task Update(Produto Objeto)
         {
             await _IProduct.Update(Objeto);
-        } 
+        }
+
+        
         #endregion
 
 
