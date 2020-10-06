@@ -131,5 +131,12 @@ namespace Web_ECommerce.Controllers
             var idUsuario = await _UserManager.GetUserAsync(User);
             return idUsuario.Id;
         }
+
+        [AllowAnonymous]
+        [HttpGet("/api/ListaProdutosComEstoque")]
+        public async Task<JsonResult> ListaProdutosComEstoque()
+        {
+            return Json(await _interfaceProductApp.ListaProdutosComEstoque());
+        }
     }
 }
