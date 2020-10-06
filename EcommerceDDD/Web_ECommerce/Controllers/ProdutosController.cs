@@ -138,5 +138,13 @@ namespace Web_ECommerce.Controllers
         {
             return Json(await _interfaceProductApp.ListaProdutosComEstoque());
         }
+
+        [HttpPost("/api/AdicionarProdutoCarrinho")]
+        public async Task AdicionarProdutoCarrinho(string id, string nome, string qtd)
+        {
+            //////
+            /////
+        }
+
     }
 }

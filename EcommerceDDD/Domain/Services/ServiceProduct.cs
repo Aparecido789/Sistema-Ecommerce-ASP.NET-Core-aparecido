@@ -31,7 +31,7 @@ namespace Domain.Services
             }
         }
 
-        public async Task<List<Produto>> ListaProdutosComEstoque(Expression<Func<Produto, bool>> exproduto)
+        public async Task<List<Produto>> ListaProdutosComEstoque()
         {
             return await _product.ListaProdutos(p => p.QtdEstoque > 0);
         }

@@ -1,3 +1,7 @@
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.csprojAssemblyReference.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfoInputs.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfo.cs
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.csproj.CoreCompileInputs.cache
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\ApplicationApp.deps.json
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\ApplicationApp.dll
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\ApplicationApp.pdb
@@ -5,10 +9,6 @@ C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\Ecommer
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\Entities.dll
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.csprojAssemblyReference.cache
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfoInputs.cache
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfo.cs
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.csproj.CoreCompileInputs.cache
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.csproj.CopyComplete
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.dll
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.pdb

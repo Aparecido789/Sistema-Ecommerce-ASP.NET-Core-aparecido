@@ -1,3 +1,10 @@
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.csprojAssemblyReference.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.AssemblyInfoInputs.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.AssemblyInfo.cs
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.csproj.CoreCompileInputs.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.RazorAssemblyInfo.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.RazorAssemblyInfo.cs
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -143,14 +150,7 @@ C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\Ecommer
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\infrastructure.pdb
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\bin\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.csprojAssemblyReference.cache
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.AssemblyInfoInputs.cache
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.AssemblyInfo.cs
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.csproj.CoreCompileInputs.cache
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.RazorAssemblyInfo.cache
-C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.RazorAssemblyInfo.cs
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.TagHelpers.input.cache
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.TagHelpers.output.cache
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.RazorCoreGenerate.cache

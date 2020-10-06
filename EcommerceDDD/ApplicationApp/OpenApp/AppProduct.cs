@@ -60,7 +60,12 @@ namespace ApplicationApp.OpenApp
             await _IProduct.Update(Objeto);
         }
 
-        
+        public async Task<List<Produto>> ListaProdutosComEstoque()
+        {
+           return await _IServiceProduct.ListaProdutosComEstoque();
+        }
+
+
         #endregion
 
 
