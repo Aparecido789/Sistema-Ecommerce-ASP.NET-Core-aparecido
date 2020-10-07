@@ -17,7 +17,12 @@ ObjetoVenda.AdicionaCarrinho = function(idProduto) {
                 
         },
         success: function (data) {
-
+            if (data.sucesso) {
+                alert("OK");
+            }
+            else {
+                alert("Usuário não logado");
+            }
         }
     });
 }

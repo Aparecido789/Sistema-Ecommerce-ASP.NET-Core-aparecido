@@ -22,6 +22,7 @@ using ApplicationApp.OpenApp;
 using Domain.Interfaces.InterfaceServices;
 using Domain.Services;
 using Entities.Entities;
+using Domain.Interfaces.InterfaceCompraUsuario;
 
 namespace Web_ECommerce
 {
@@ -48,12 +49,16 @@ namespace Web_ECommerce
             //Interface e Repositorio
             services.AddSingleton(typeof(IGenerics<>), typeof(RepositoryGenerics<>));
             services.AddSingleton<IProduct, RepositoryProduct>();
+            services.AddSingleton<ICompraUsuario, RepositoryCompraUsuario>();
 
             //Interface Aplicação
             services.AddSingleton<InterfaceProductApp, AppProduct>();
+            services.AddSingleton<InterfaceCompraUsuarioApp, AppCompraUsuario>();
 
             //Interface Dominio
             services.AddSingleton<IServiceProduct, ServiceProduct>();
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
