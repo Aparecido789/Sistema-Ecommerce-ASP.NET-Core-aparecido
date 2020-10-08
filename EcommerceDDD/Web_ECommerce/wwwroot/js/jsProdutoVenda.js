@@ -18,10 +18,10 @@ ObjetoVenda.AdicionaCarrinho = function(idProduto) {
         },
         success: function (data) {
             if (data.sucesso) {
-                alert("OK");
+                ObjetoAlerta.AlertaTela(1, "Produto adicionado no Carrinho");
             }
             else {
-                alert("Usuário não logado");
+                ObjetoAlerta.AlertaTela(2, "Necessário efetuar o Login");
             }
         }
     });

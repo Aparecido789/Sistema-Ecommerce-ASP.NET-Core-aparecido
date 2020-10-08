@@ -215,3 +215,4 @@ C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\Ecommer
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.dll
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.pdb
 C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Web_ECommerce.genruntimeconfig.cache
+C:\Users\Chico s\Desktop\GITHUB\Sistema-Ecommerce-ASP.NET-Core-aparecido\EcommerceDDD\Web_ECommerce\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AlertaPartial.cshtml.g.cs
