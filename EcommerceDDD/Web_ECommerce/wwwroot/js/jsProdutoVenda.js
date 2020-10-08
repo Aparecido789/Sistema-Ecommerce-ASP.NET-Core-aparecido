@@ -60,6 +60,13 @@ ObjetoVenda.CarregaProdutos= function () {
 
 }
 
+ObjetoVenda.CarregarQtdCarrinho = function () {
+
+    $("#qtdCarrinho").text("(0)");
+    setTimeout(ObjetoVenda.CarregarQtdCarrinho, 10000);
+}
+
 $(function () {
     ObjetoVenda.CarregaProdutos();
+    ObjetoVenda.CarregarQtdCarrinho();
 });

@@ -92,6 +92,10 @@ namespace Web_ECommerce.Controllers
                     {
                         ModelState.AddModelError(item.NomePropriedade, item.Mensagem);
                     }
+
+                    ViewBag.Alerta = true;
+                    ViewBag.Mensagem = "Verifique, Não foi possivel alterar o produto!";
+
                     return View("Edit", produto);
                 }
             }
