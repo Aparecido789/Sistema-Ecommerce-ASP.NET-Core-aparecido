@@ -12,9 +12,14 @@ namespace ApplicationApp.OpenApp
     public class AppCompraUsuario : InterfaceCompraUsuarioApp
     {
         private readonly ICompraUsuario _ICompraUsuario;
+
         public AppCompraUsuario(ICompraUsuario ICompraUsuario)
         {
             _ICompraUsuario = ICompraUsuario;
+        }
+        public async Task<int> QuantidadeProdutoCarrinhoUsuario(string userId)
+        {
+            return await _ICompraUsuario.QuantidadeProdutoCarrinhoUsuario(userId);
         }
         public async Task Add(CompraUsuario Objeto)
         {
@@ -35,6 +40,8 @@ namespace ApplicationApp.OpenApp
         {
             return await _ICompraUsuario.List();
         }
+
+        
 
         public async Task Update(CompraUsuario Objeto)
         {

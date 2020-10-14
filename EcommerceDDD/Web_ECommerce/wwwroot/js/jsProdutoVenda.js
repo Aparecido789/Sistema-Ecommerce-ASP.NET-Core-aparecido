@@ -63,6 +63,20 @@ ObjetoVenda.CarregaProdutos= function () {
 ObjetoVenda.CarregarQtdCarrinho = function () {
 
     $("#qtdCarrinho").text("(0)");
+
+    $.ajax({
+        type: 'GET',
+        url: "/api/QtdProdutoCarrinho",
+        dataType: "JSON",
+        cache: false,
+        async: true,
+        success: function (data) {
+            if (data.sucesso) {
+                $("#qtdCarrinho").text("("+ data.qtd +")");
+            }
+        }
+    });
+
     setTimeout(ObjetoVenda.CarregarQtdCarrinho, 10000);
 }
 
