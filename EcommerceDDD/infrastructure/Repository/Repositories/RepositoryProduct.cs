@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces.InterfaceProduct;
 using Entities.Entities;
+using Entities.Entities.Enums;
 using infrastructure.Configuration;
 using infrastructure.Repository.Generics;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +20,49 @@ namespace infrastructure.Repository.Repositories
         {
             _optionBuilder = new DbContextOptions<ContextBase>();
         }
+        public async Task<List<Produto>> ListarProdutoCarrinhoUsuario(string userId)
+        {
+            using (var banco = new ContextBase(_optionBuilder))
+            {
+                var produtoCarrinhoUsuario = await (from p in banco.Produto
+                                             join c in banco.CompraUsuarios on p.Id equals c.IdProduto
+                                             where c.UserId.Equals(userId) && c.EstadoCompra == EstadoCompra.Produto_Carrinho
+                                             select new Produto 
+                                             { 
+                                                 Id = p.Id,
+                                                 Nome = p.Nome,
+                                                 Descricao = p.Descricao,
+                                                 Observacao = p.Observacao,
+                                                 Valor = p.Valor,
+                                                 QtdCompra = c.Quantidade,
+                                                 IdProdutoCarrinho = c.Id
+                                             }).AsNoTracking().ToListAsync();
+
+                return produtoCarrinhoUsuario;
+            }
+        }
+
+        public async Task<Produto> ObterProdutoCarrinho(int idProdutoCarrinho)
+        {
+            using (var banco = new ContextBase(_optionBuilder))
+            {
+                var produtoCarrinhoUsuario = await (from p in banco.Produto
+                                                    join c in banco.CompraUsuarios on p.Id equals c.IdProduto
+                                                    where c.Id.Equals(idProdutoCarrinho) && c.EstadoCompra == EstadoCompra.Produto_Carrinho
+                                                    select new Produto
+                                                    {
+                                                        Id = p.Id,
+                                                        Nome = p.Nome,
+                                                        Descricao = p.Descricao,
+                                                        Observacao = p.Observacao,
+                                                        Valor = p.Valor,
+                                                        QtdCompra = c.Quantidade,
+                                                        IdProdutoCarrinho = c.Id
+                                                    }).AsNoTracking().FirstOrDefaultAsync();
+
+                return produtoCarrinhoUsuario;
+            }
+        }
 
         public async Task<List<Produto>> ListaProdutos(Expression<Func<Produto, bool>> exproduto)
         {
@@ -35,5 +79,7 @@ namespace infrastructure.Repository.Repositories
                 return await banco.Produto.Where(p => p.UserId == userId).AsNoTracking().ToListAsync();
             }
         }
+
+        
     }
 }

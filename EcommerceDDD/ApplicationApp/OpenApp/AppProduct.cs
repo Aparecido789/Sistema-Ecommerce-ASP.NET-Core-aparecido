@@ -32,6 +32,20 @@ namespace ApplicationApp.OpenApp
         {
             return await _IProduct.ListaProdutoUsuario(userId);
         }
+        public async Task<List<Produto>> ListaProdutosComEstoque()
+        {
+            return await _IServiceProduct.ListaProdutosComEstoque();
+        }
+
+        public async Task<List<Produto>> ListarProdutosCarrinhoUsuario(string userId)
+        {
+            return await _IProduct.ListarProdutoCarrinhoUsuario(userId);
+        }
+
+        public async Task<Produto> ObterProdutoCarrinho(int idProdutoCarrinho)
+        {
+            return await _IProduct.ObterProdutoCarrinho(idProdutoCarrinho);
+        }
         #endregion
 
         #region Métodos
@@ -60,10 +74,7 @@ namespace ApplicationApp.OpenApp
             await _IProduct.Update(Objeto);
         }
 
-        public async Task<List<Produto>> ListaProdutosComEstoque()
-        {
-           return await _IServiceProduct.ListaProdutosComEstoque();
-        }
+        
 
 
         #endregion
